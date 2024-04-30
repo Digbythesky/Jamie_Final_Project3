@@ -1,0 +1,164 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(84, 82, 100);
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: 1.2rem;
+    padding: 1em;
+}
+h1{
+    font-size: 4rem;
+    padding-bottom: .5em;
+}
+.heading{
+
+    height: 10em;
+    width: auto;
+    color: rgb(178, 174, 204);
+    background-image:url(https://images.unsplash.com/photo-1517461982853-d9e4fa425852?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+}
+
+header {
+    text-align: center;
+}
+.container{
+    width: auto;
+    margin: auto;
+    
+}
+.solar{
+    margin: .5em;
+    height: 15em;
+    width:auto;
+    padding-left: 2em;
+}
+.memories{
+    height: 30em;
+    width:auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+}
+.festivities{
+    height: 30em;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+}
+.glasses{
+    height: 30em;
+    width:auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    }
+
+
+nav{
+    /* use eyedropper tool on firefox to match the color needed for logo */
+    background-color:rgb(178, 174, 204);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    /* to get rid of bullets in ul use list style and then none */
+    list-style: none;
+    align-items: center;
+
+}
+li{
+        padding: 1.5em;
+        
+}
+/* a tag is the link tag. to get rid on underline, apply text-decoration: none; */
+a{  
+    color: #000000;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(55, 37, 78);
+}
+
+.logo{
+    height: 8em;
+    /* apply auto to width to prevent weird scaling */
+    width: auto;
+}
+footer{
+    font-size: 1rem;
+    text-align: center;
+    background-color: #000000;
+}
+
+h3{
+    padding: 1em;
+}
+.eclipses2{
+padding: 2em;
+height: 25em;
+width: auto;
+}
+
+.memory{
+    padding: 2em;
+    background-color: #252849;
+    display: flex;
+
+}
+
+.festivity{
+    padding: 2em;
+    background-color: #3d3b44;
+    display: flex;
+ 
+}
+
+.glasswear{
+    padding: 2em;
+    background-color: #252849;
+    display: flex;
+ 
+}
+.group{
+    height:20em;
+}
+
+.memory-text{
+    padding: 1em;
+}
+
+.festivity-text{
+    padding: 1em;
+}
+
+.glasswear-text{
+    padding: 1em;
+}
+
+button{
+    background-color: rgb(178, 174, 204);
+    font-size: 2rem;
+    padding: .5em;
+    margin-top: 1em;
+    border: none;
+}
+button:hover{
+    background-color: #928ab6;
+}
